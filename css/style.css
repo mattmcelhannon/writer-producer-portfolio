@@ -80,7 +80,6 @@ header a:visited{
 }
 #boxes .box img{
     width: 100%;
-    /* box-shadow: 5px 5px 10px #eee8d5; */
 }
 #boxes .box a{
     text-decoration: none;
@@ -96,10 +95,31 @@ header a:visited{
 #boxes .box a:visited{
     color: #fdf6e3;
 }
-#videos .video{
+/* Videos */
+#videos .player{
     text-align: center;
     padding: 20px;
 }
+/* .responsive-video {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    margin-bottom: 52px;
+}
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.responsive-video p{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    padding-top: 57%;
+} */
 /* Footer */
 footer li{
     display: inline;
