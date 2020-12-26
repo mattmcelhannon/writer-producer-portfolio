@@ -97,8 +97,19 @@ header a:visited{
 }
 /* Videos */
 #videos .player{
+    padding:56.25% 0 0 0;
+    position:relative;
+}
+#videos iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+#videos .title{
     text-align: center;
-    padding: 20px;
+    margin-top: 50px;
 }
 /* .responsive-video {
     width: 100%;
