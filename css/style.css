@@ -16,14 +16,6 @@ ul{
     margin: 0;
     padding: 0;
 }
-/* iframe{
-    box-shadow: 5px 5px 10px #eee8d5;
-} */
-/* a:hover{
-    color: #fdf6e3;
-    border-bottom: solid;
-    border-color: #dc322f;
-} */
   /* Header */
 header{
     padding-top: 30px;
@@ -104,6 +96,11 @@ header a:visited{
     padding:75% 0 0 0;
     position:relative;
 }
+#videos .player-yt{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
 #videos iframe{
     position:absolute;
     top:0;
@@ -115,26 +112,6 @@ header a:visited{
     text-align: center;
     margin-top: 50px;
 }
-/* .responsive-video {
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-    position: relative;
-    margin-bottom: 52px;
-}
-.responsive-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.responsive-video p{
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    padding-top: 57%;
-} */
 /* Footer */
 footer li{
     display: inline;
