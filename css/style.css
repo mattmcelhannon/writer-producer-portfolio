@@ -68,17 +68,13 @@ header a:visited{
     text-decoration: none;
     color: #93a1a1;
 }
-#about .about a:link{
-    color: #93a1a1;
-}
-#about .about a:visited{
+#about .about a:link, a:visited{
     color: #93a1a1;
 }
 #about .about a:hover{
     text-decoration: underline;
     color: #fdf6e3;
 }
-
 /* Boxes */
 #boxes .box{
     float: left;
