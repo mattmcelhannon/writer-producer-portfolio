@@ -63,6 +63,22 @@ header a:visited{
     font-size: 30px;
     padding: 20px
 }
+/* About */
+#about .about a{
+    text-decoration: none;
+    color: #93a1a1;
+}
+#about .about a:link{
+    color: #93a1a1;
+}
+#about .about a:visited{
+    color: #93a1a1;
+}
+#about .about a:hover{
+    text-decoration: underline;
+    color: #fdf6e3;
+}
+
 /* Boxes */
 #boxes .box{
     float: left;
