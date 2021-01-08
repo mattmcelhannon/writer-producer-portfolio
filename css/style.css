@@ -125,15 +125,18 @@ header a:visited{
     margin-top: 50px;
 }
 /* Footer */
-footer li{
-    display: inline;
+/* footer{
+    float: left;
+    width: 60%;
+    margin-left: 25%;
     padding: 0 20px 0 20px;
-}
+} */
 /* Media Queries */
 @media(max-width: 768px){
     header #branding,
     header nav,
     header li,
+    footer,
     #boxes .box{
         float: none;
         text-align: center;
