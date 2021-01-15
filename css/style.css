@@ -101,11 +101,13 @@ header a:visited{
 }
 /* Videos */
 #videos .player{
-    padding:56.25% 0 0 0;
+    padding: 56.25% 0 0 0;
     position:relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 #videos .player-no-parking{
-    padding:75% 0 0 0;
+    padding: 75% 0 0 0;
     position:relative;
 }
 #videos .player-yt{
