@@ -110,11 +110,6 @@ header a:visited{
     padding: 75% 0 0 0;
     position:relative;
 }
-#videos .player-yt{
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-}
 #videos iframe{
     position:absolute;
     top:0;
