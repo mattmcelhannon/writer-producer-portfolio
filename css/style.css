@@ -103,8 +103,8 @@ header a:visited{
 #videos .player{
     padding: 56.25% 0 0 0;
     position:relative;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 #videos .player-no-parking{
     padding: 75% 0 0 0;
