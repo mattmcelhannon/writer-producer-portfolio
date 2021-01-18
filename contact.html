@@ -17,39 +17,37 @@
                 </div>
                 <nav>
                     <ul>
-                        <li class="current"><a href="index.html">Main</a></li>
+                        <li><a href="index.html">Main</a></li>
                         <li><a href="comedy.html">Comedy</a></li>
                         <li><a href="kids-and-family.html">Kids & Family</a></li>
                         <li><a href="dc.html">DC</a></li>
                         <li><a href="about.html">About</a></li>
-                        <!-- <li><a href="contact.html">Contact</a></li> -->
+                        <li class="current"><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-        </header>    
-        
-        <article id="intro">
-            <div class="container">
-                <div class="intro">
-                    <p>Award-winning expertise in creative promotion, production, and branding, including on-air and digital.</p>
-                </div>
-            </div>
-        </article>    
+        </header>
 
-        <section id="boxes">
+        <section id="form">
             <div class="container">
-                <div class="box">
-                    <a href="comedy.html"><img src="./images/comedy.png"></a>
-                    <p><a href="comedy.html">Comedy</a></p>
-                </div>
-                <div class="box">
-                    <a href="kids-and-family.html"><img src="./images/kids-and-family.png"></a>
-                    <p><a href="kids-and-family.html">Kids & Family</a></p>
-                </div>
-                <div class="box">
-                    <a href="dc.html"><img src="./images/dc.png"></a>
-                    <p><a href="dc.html">DC</a></p>
-                </div>
+              <div class="contact">
+                <h2>Say "Hi", Won't You?</h2>
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                  <p>
+                    <label>Your Name: <input type="text" name="name" /></label>   
+                  </p>
+                  <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                    <label>Message: <textarea name="message" rows="10"></textarea></label>
+                  </p>
+                  <div data-netlify-recaptcha="true"></div>
+                  <p>
+                    <button type="submit">Send</button>
+                  </p>
+                </form>
+              </div>              
             </div>
         </section>
 
