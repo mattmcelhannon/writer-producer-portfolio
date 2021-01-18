@@ -129,11 +129,11 @@ header a:visited{
     padding: 20px;
 }
 #form input{
-    width: 50%;
+    width: 40%;
     padding: 10px;
 }
 #form textarea{
-    width: 50%;
+    width: 40%;
     padding: 10px;
 }
 /* Footer */
