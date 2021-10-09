@@ -57,6 +57,11 @@ header a:link{
 header a:visited{
     color: #fdf6e3;
 }
+
+img {
+    border-radius: 10px;
+}
+
 /* Article */
 #intro .intro{
     text-align: center;
